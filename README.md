@@ -2,14 +2,15 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
+
 # In-App Screenshot
 ![App Screenshot](screenshot.png)
 
-# React + TypeScript + Viteyour AI Studio app
+# React + TypeScript + Vite
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1JKUsCafOb8pdv1HP0jFa7weiw_Sk3lUk
+View your app in AI Studio: https://ai.studio/apps/drive/1vDXvwSpqgRm-90gZLGpJVkp6QKfybwdQ
 
 ## Run Locally
 

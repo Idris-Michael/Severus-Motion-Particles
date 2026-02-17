@@ -1,29 +1,10 @@
 import React from 'react';
-import { Text, useTexture } from '@react-three/drei';
+import { Text } from '@react-three/drei';
 import * as THREE from 'three';
-import '../types';
 
 const Background: React.FC = () => {
-  // Load a dark, subtle space texture
-  const texture = useTexture("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2072&auto=format&fit=crop");
-
   return (
     <group position={[0, 0, -5]}>
-      {/* Background Sphere (Nebula) */}
-      {/* Centered loosely around the scene, large enough to encompass camera */}
-      <mesh position={[0, 0, 5]} rotation={[0, 0, 0]}>
-        <sphereGeometry args={[45, 64, 64]} />
-        <meshBasicMaterial 
-            map={texture} 
-            side={THREE.BackSide} 
-            transparent 
-            opacity={0.15} 
-            color="#888" // Desaturate/Darken the texture
-            toneMapped={false}
-            depthWrite={false} // Ensure it renders as background
-        />
-      </mesh>
-
       <Text
         font="https://fonts.gstatic.com/s/orbitron/v25/yMJRMIlzdpvBhQQL_Qq7dys.woff"
         fontSize={4}

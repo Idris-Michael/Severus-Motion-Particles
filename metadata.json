@@ -1,7 +1,8 @@
 {
   "name": "SEVERUS Particles",
-  "description": "A real-time interactive 3D particle system controlled by hand gestures.",
+  "description": "A real-time interactive 3D particle system controlled by hand gestures and ambient sound.",
   "requestFramePermissions": [
-    "camera"
+    "camera",
+    "microphone"
   ]
 }
